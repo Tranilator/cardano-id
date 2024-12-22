@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": false,
+    "givenName": {
+      "@value": "Tran トラン"
+    },
+    "motivations": {
+      "@value": "I have been an active member of the Cardano ecosystem since Catalyst 3 and am a long-term holder who strongly believes in the platform’s mission to create a more inclusive, sustainable, and decentralised world. Cardano’s commitment to research-driven development and real-world impact inspires me to contribute more deeply to its governance.\n\nAs a DRep, I aim to:\n\n# Support Cardano’s evolution into the leading blockchain platform by promoting it as the standard method of exchange.\n\n# Champion decentralised governance practices that uphold transparency and accountability.\n\n# Represent the interests of the common everyman, ensuring governance decisions are inclusive and considerate of the broader community.\n\n# Foster collaboration and inclusivity within the ecosystem, ensuring proposals align with both community needs and Cardano’s core mission."
+    },
+    "objectives": {
+      "@value": "As a Delegated Representative (DRep) for Cardano, my primary objective is to ensure that governance decisions align with the long-term sustainability, inclusivity, and scalability of the ecosystem.\n\nLeveraging my technical expertise and strategic insights, I aim to:\n\n# Represent stakeholders' interests in fostering a secure, efficient, and decentralised blockchain infrastructure.\n\n# Advocate for proposals that prioritise transparency, innovation, and broad adoption of Cardano technology.\n\n# Promote Cardano as the standard method of exchange, driving its adoption across diverse use cases.\n\nThrough my contributions, I seek to bridge the gap between technical stakeholders and broader community interests, ensuring governance outcomes reflect the collective vision of all participants.\n\n"
+    },
+    "paymentAddress": {
+      "@value": "addr1q9fr9ue84pk753mttmxxgl82wcpj38w9r0g0xh32g6kzshnlfkwcfwzf67prglcqwqjasvy8kanpsktgq8smkt5v2d2susnumz"
+    },
+    "qualifications": {
+      "@value": "I have been involved with Cardano since Catalyst 3 and am a long-term ADA holder committed to its mission. My qualifications include:\n\n# Member of the Cybersecurity Working Group within an Australian Dept. of Education NCRIS facility, contributing to improving security frameworks and governance processes.\n\n# Technical Business Analyst and Senior Systems Administrator with practical, strategic, and architectural expertise in delivering scalable and secure IT solutions.\n\n\n# RHEL Engineer with extensive experience managing enterprise Linux environments.\n\n# Currently pursuing a Master of Cybersecurity at UNSW.\n\nMy blend of hands-on technical skills, strategic planning, and governance experience enables me to make meaningful contributions to Cardano’s ecosystem, advancing security, scalability, and adoption."
+    },
+    "references": []
+  }
+}
